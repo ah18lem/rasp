@@ -1,12 +1,10 @@
 import flwr as fl
 import numpy as np
 import pandas as pd
-from sklearn.calibration import LabelEncoder
 import tensorflow as tf
 import model
 import functions 
 import constantes
-from sklearn.metrics import classification_report
 # Define the Flower client class
 class AutoencoderClient(fl.client.NumPyClient):
     def __init__(self, cid, net, train, labels):
