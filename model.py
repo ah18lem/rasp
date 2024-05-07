@@ -1,6 +1,5 @@
 import tensorflow as tf
 from keras.layers import Lambda
-import functions
 import constantes
 
 class AutoencoderWithClassifier(tf.keras.Model):
