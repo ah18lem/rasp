@@ -21,7 +21,7 @@ class AutoencoderClient(fl.client.NumPyClient):
 
     def evaluate(self, parameters, config):
         # Return the evaluation metrics as a tuple
-        return 1, 1, {"mse": 1}
+        return 1.0, 1, {"mse": 1}
 
 
 net = model.AutoencoderWithClassifier(18,isServer=False, vae=constantes.VAE)
