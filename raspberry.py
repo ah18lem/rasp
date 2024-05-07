@@ -1,9 +1,6 @@
 import flwr as fl
-import numpy as np
 import pandas as pd
-import tensorflow as tf
 import model
-import functions 
 import constantes
 # Define the Flower client class
 class AutoencoderClient(fl.client.NumPyClient):
