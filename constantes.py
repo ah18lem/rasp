@@ -3,9 +3,9 @@ NUM_ROUNDS=5
 
 FRACTION_FIT=1  # Sample 10% of available clients for training
 FRACTION_EVALUATE=1  # Sample 5% of available clients for evaluation
-MIN_FIT_CLIENTS=10 # Never sample less than 10 clients for training
-MIN_EVALUATE_CLIENTS=10# Never sample less than 5 clients for evaluation
-MIN_AVAILABLE_CLIENTS=10
+MIN_FIT_CLIENTS=2 # Never sample less than 10 clients for training
+MIN_EVALUATE_CLIENTS=2# Never sample less than 5 clients for evaluation
+MIN_AVAILABLE_CLIENTS=2
 
 ENCODER_LAYERS=[14,14,9]
 DECODER_LAYERS=[14,14]
