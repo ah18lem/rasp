@@ -32,7 +32,7 @@ fake_labels=pd.read_csv("labels.csv")
 
 
 fl.client.start_client(
-        server_address='192.168.53.247:8080',
+        server_address='192.168.215.247:8080',
         client=AutoencoderClient(
           0,net,data, fake_labels
         ).to_client(),
